@@ -418,6 +418,9 @@ ramips_board_detect() {
 	*"Lenovo Y1S")
 		name="y1s"
 		;;
+	*"LYSOC LY7620")
+		name="ly7620"
+		;;
 	*"Mediatek MT7621 evaluation board")
 		name="mt7621"
 		;;

@@ -266,6 +266,9 @@ case $board in
 	zte-q7)
 		set_wifi_led "zte:blue:status"
 		;;
+	ly7620)
+		ucidef_set_led_default "power" "power" "lysoc:red:status" "1"
+		;;
 esac
 
 board_config_flush

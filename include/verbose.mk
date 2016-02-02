@@ -6,7 +6,7 @@
 #
 
 ifndef OPENWRT_VERBOSE
-  OPENWRT_VERBOSE:=
+  OPENWRT_VERBOSE:=s
 endif
 ifeq ("$(origin V)", "command line")
   OPENWRT_VERBOSE:=$(V)
